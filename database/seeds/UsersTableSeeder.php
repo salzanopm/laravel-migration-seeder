@@ -26,7 +26,7 @@ class UsersTableSeeder extends Seeder
             $new_destination->state = $faker->state();
             $new_destination->rooms = rand(1, 7);
             $new_destination->bathrooms = rand(1, 3);
-            $new_destination->type = $faker->randomElement($types);
+            $new_destination->type_of = $faker->randomElement($types);
             $new_destination->description = $faker->text(500);
             $new_destination->price_flight = rand(1, 10000);
             $new_destination->price_hotel = rand(1, 10000);

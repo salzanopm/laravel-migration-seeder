@@ -19,7 +19,7 @@ class CreateDestinationsTable extends Migration
             $table->string('state', 50);
             $table->tinyInteger('rooms')->unsigned();
             $table->tinyInteger('bathrooms')->unsigned();
-            $table->string('type_of_', 50);
+            $table->string('type_of', 50);
             $table->text('description')->nullable();
             $table->decimal('price_flight', 8, 2);
             $table->decimal('price_hotel', 8, 2);
